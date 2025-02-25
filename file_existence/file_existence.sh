@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 
 file_path=/var/lib/messages
 if [[ -e ${file_path} ]];
@@ -13,3 +13,4 @@ then
 else
     echo "File not exists"
 fi
+
